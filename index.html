@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" sizes="128x128" href="nysl_logo-128.png">
+  <link rel="apple-touch-icon" href="nysl_logo-60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="nysl_logo-76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="nysl_logo-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="nysl_logo-152.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="nysl.css">
+
+  <title>Northside Youth Soccer League Schedule</title>
+</head>
+<body>
+  <div class="container-fluid w-100 mt-3 float-none margin-auto">
+    <header><img id="headerImg" src="soccer.jpg" alt="NYSL Logo" /></header>
+    <div id="gamesSchedule"></div>
+    <div id="chatBox">
+      <div class="card-body border-1 p-1">
+        <div class="advice card-body">Please log in!
+          <button id="login" class="btn btn-secondary border-dark m-3">Login</button>
+        </div>
+        <div id="posts" class="card-body"></div>
+        <div class="inputs"><input id="textInput" class="card-footer" type="text" placeholder="Your message...">
+          <button id="create-post" class="btn btn-secondary border-dark">Send</button>
+        </div>
+      </div>
+    </div>
+
+<!-- Click to Call -->
+    <div class="card w-100 rounded-0 mt-3">
+      <h3 class="card-header" style="background-color: white; border-color:black;"><a href="tel:8005551212">Click to Call</a></h3>
+      <div class="card-body" style="background-color: white; border-color:black;">
+        <h4 class="card-title">(800)555-1212</h4>
+        <p class="card-text">Games may be shortened or cancelled due to extreme weather conditions. Call for the latest information.</p>
+        <button id="chatLink" class="btn-block"><div class="card-footer p-0" id="openChat">Open Chat</div><div class="card-footer p-0" id="closeChat">Close Chat</div></button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyC9w2IjRMjmYZlOq2CxcmvUmcsdWGn6gXQ",
+      authDomain: "nysl-application.firebaseapp.com",
+      databaseURL: "https://nysl-application.firebaseio.com",
+      projectId: "nysl-application",
+      storageBucket: "nysl-application.appspot.com",
+      messagingSenderId: "399542006690"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="nysl.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "games": [
+     {
+        "game": "U1 and U4",
+        "date": "September 1",
+        "location": "AJ Katzenmaier",
+        "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11799.124110565579!2d-87.86274!3d42.325869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1sen!2sar!4v1523282431006' width='1024' height='768' frameborder='0' style='border:0'></iframe>",
+        "time": "9:30 a.m."
+      },
+      {
+         "game": "U3 and U2",
+         "date": "September 1",
+         "location": "Greenbay",
+         "map":"<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11799.119811455937!2d-87.871494869801!3d42.32589192183658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x740a7a7d548adce1!2sGreenbay+Elementary+School+(K-5)!5e0!3m2!1sen!2sar!4v1522930636742' width='1024' height='768' frameborder='0'></iframe>",
+         "time": "1 p.m."
+      },
+       {
+          "game": "U5 and U6",
+          "date": "September 8",
+          "location": "Howard A Yeager",
+          "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755274.7500442148!2d-88.41700070929232!3d42.314970486950024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1sen!2sar!4v1522933023454' width='1024' height='768' frameborder='0'></iframe>",
+          "time": "9:30 a.m."
+        },
+        {
+           "game": "U6 and U1",
+           "date": "September 8",
+           "location": "Marjorie P Hart",
+           "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536436065!2d-87.64816138492408!3d41.92962687016772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1sen!2ses!4v1523006184952' width='1024' height='768' frameborder='0'></iframe>",
+           "time": "1 p.m."
+         },
+         {
+            "game": "U2 and U4",
+            "date": "September 15",
+            "location": "North Elementary",
+            "map":"<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.251561024688!2d-87.84222038491085!3d42.337159744540756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed26d3692cf5%3A0x8611023901d6c74a!2sNorth+Elementary+School!5e0!3m2!1sen!2ses!4v1523005158524' width='1024' height='768' frameborder='0'></iframe>",
+            "time": "9:30 a.m."
+          },
+          {
+             "game": "U3 and U5",
+             "date": "September 15",
+             "location": "AJ Katzenmaier",
+             "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11799.124110565579!2d-87.86274!3d42.325869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1sen!2sar!4v1523282431006' width='1024' height='768' frameborder='0' style='border:0'></iframe>",
+             "time": "1 p.m."
+           },
+           {
+              "game": "U1 and U3",
+              "date": "September 22",
+              "location": "South Elementary",
+              "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379420.8773791997!2d-87.97877704592723!3d42.01689241835762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac2135a21%3A0x8ce88e90b96bbec1!2sSouth+Elementary+School!5e0!3m2!1sen!2ses!4v1523006882118' width='1024' height='768' frameborder='0'></iframe>",
+              "time": "9:30 a.m."
+            },
+            {
+               "game": "U2 and U6",
+               "date": "September 22",
+               "location": "Howard A Yeager",
+               "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755274.7500442148!2d-88.41700070929232!3d42.314970486950024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1sen!2sar!4v1522933023454' width='1024' height='768' frameborder='0'></iframe>",
+               "time": "1 p.m."
+             },
+             {
+                "game": "U4 and U5",
+                "date": "September 29",
+                "location": "Greenbay",
+                "map":"<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11799.119811455937!2d-87.871494869801!3d42.32589192183658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x740a7a7d548adce1!2sGreenbay+Elementary+School+(K-5)!5e0!3m2!1sen!2sar!4v1522930636742' width='1024' height='768' frameborder='0'></iframe>",
+                "time": "9:30 a.m."
+              },
+              {
+                 "game": "U2 and U5",
+                 "date": "October 6",
+                 "location": "Marjorie P Hart",
+                 "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536436065!2d-87.64816138492408!3d41.92962687016772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1sen!2ses!4v1523006184952' width='1024' height='768' frameborder='0'></iframe>",
+                 "time": "9:30 a.m."
+               },
+               {
+                  "game": "U1 and U6",
+                  "date": "October 6",
+                  "location": "South Elementary",
+                  "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379420.8773791997!2d-87.97877704592723!3d42.01689241835762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac2135a21%3A0x8ce88e90b96bbec1!2sSouth+Elementary+School!5e0!3m2!1sen!2ses!4v1523006882118' width='1024' height='768' frameborder='0'></iframe>",
+                  "time": "1 p.m."
+                },
+                {
+                   "game": "U3 and U4",
+                   "date": "October 13",
+                   "location": "Marjorie P Hart",
+                   "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536436065!2d-87.64816138492408!3d41.92962687016772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1sen!2ses!4v1523006184952' width='1024' height='768' frameborder='0'></iframe>",
+                   "time": "9:30 a.m."
+                 },
+                 {
+                    "game": "U5 and U1",
+                    "date": "October 13",
+                    "location": "South Elementary",
+                    "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379420.8773791997!2d-87.97877704592723!3d42.01689241835762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac2135a21%3A0x8ce88e90b96bbec1!2sSouth+Elementary+School!5e0!3m2!1sen!2ses!4v1523006882118' width='1024' height='768' frameborder='0'></iframe>",
+                    "time": "1 p.m."
+                  },
+                  {
+                     "game": "U6 and U3",
+                     "date": "October 20",
+                     "location": "North Elementary",
+                     "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.251561024688!2d-87.84222038491085!3d42.337159744540756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed26d3692cf5%3A0x8611023901d6c74a!2sNorth+Elementary+School!5e0!3m2!1sen!2ses!4v1523005158524' width='1024' height='768' frameborder='0'></iframe>",
+                     "time": "9:30 a.m."
+                   },
+                   {
+                      "game": "U4 and U2",
+                      "date": "October 20",
+                      "location": "Marjorie P Hart",
+                      "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536436065!2d-87.64816138492408!3d41.92962687016772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1sen!2ses!4v1523006184952' width='1024' height='768' frameborder='0'></iframe>",
+                      "time": "1 p.m."
+                    },
+                    {
+                       "game": "U3 and U1",
+                       "date": "October 27",
+                       "location": "AJ Katzenmaier",
+                       "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11799.124110565579!2d-87.86274!3d42.325869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1sen!2sar!4v1523282431006' width='1024' height='768' frameborder='0' style='border:0'></iframe>",
+                       "time": "9:30 a.m."
+                     },
+                     {
+                        "game": "U6 and U5",
+                        "date": "October 27",
+                        "location": "Howard A Yeager",
+                        "map": "<iframe class='embed-responsive-item' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755274.7500442148!2d-88.41700070929232!3d42.314970486950024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1sen!2sar!4v1522933023454' width='1024' height='768' frameborder='0'></iframe>",
+                        "time": "1 p.m."
+                      }
+                    ]
+}

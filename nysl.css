@@ -1,0 +1,136 @@
+/* Games Schedule CSS */
+  #headerImg{
+  width: 100%;
+  }
+
+  .card{
+    background-color:#32C900;
+    width: 100%;
+  }
+
+  .card-header{
+    text-align: center;
+    background-color: #32C900;
+  }
+
+  .card-title{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .card-body{
+    background-color: white;
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  .btn{
+    background-color: #32C900;
+  }
+
+  a.btn:hover{
+    background-color:lime;
+    border-color: black;
+  }
+
+  a.btn:active{
+    background-color:lime;
+    border-color: black;
+  }
+
+  .map{
+    display:none;
+  }
+
+  .card-footer{
+    padding: 0rem;
+    padding-bottom: .5rem;
+  }
+
+/* CSS for Chat */
+
+#posts{
+    display: flex;
+    height: 100%;
+    width: auto;
+    overflow: auto;
+    flex-direction: column;
+    padding-top: .45rem;
+    padding-bottom: .45rem;
+}
+
+.btn-secondary{
+  background-color: #32C900;
+}
+
+.btn-secondary:hover{
+  background-color:lightgreen;
+  border-color: black;
+}
+
+.btn-secondary:active{
+  background-color:lime;
+  border-color: black;
+}
+
+.advice{
+    height:auto;
+    width:auto;
+    overflow: auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+}
+
+.inputs{
+    display: flex;
+    position: static;
+}
+
+#textInput{
+    height: auto;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #32C900;
+    border-radius: 3px;
+    padding: calc(.625em - 1px);
+}
+
+.notification.is-info{
+    text-align: right;
+    max-width: 80%;
+    align-self: flex-end;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+    padding: .6rem;
+    margin: .1rem;
+    font-size: medium;
+    padding-bottom: .1rem;
+}
+
+.notification.is-primary{
+    text-align: left;
+    max-width: 80%;
+    align-self: flex-start;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color:white;
+    padding: .6rem;
+    margin: .1rem;
+    font-size: medium;
+    padding-bottom: .1rem;
+}
+
+.name{
+    font-size: medium;
+    font-weight: bold;
+    color: palegoldenrod;
+    margin-bottom: .1rem;
+}
