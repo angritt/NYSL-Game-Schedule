@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#closeChat").hide();
   $("#chatBox").hide();
+  // $("#inputs").hide();
   $("#openChat").show();
   var games = [];
   var game;
@@ -41,7 +42,6 @@ $(document).ready(function(){
       });
 
       document.getElementById('gamesSchedule').innerHTML = template;
-      // document.getElementById('chatBox').innerHTML = "<div class='card-body border-1 p-1'><div class='advice card-body'>Please log in!<button id='login' class='btn btn-secondary border-dark m-3'>Login</button></div><div id='posts' class='card-body'></div><div class='inputs'><input id='textInput' class='card-footer' type='text' placeholder='Your message...'><button id='create-post' class='btn btn-secondary border-dark'>Send</button></div></div>";
 
       //Identify Clicked Button and Open Corresponding Map
       $(document.links).click(function(event) {
@@ -63,28 +63,25 @@ $(document).ready(function(){
         }
       });
 
-      //Chat Links and Window
-      $(chatLink).click(function(event){
-        $("#gamesSchedule").toggle();
-        $(".card-header").toggle();
-        $(".card-title").toggle();
-        $(".card-text").toggle();
-        $("#openChat").toggle();
-
-        $("#closeChat").toggle();
-        $("#chatBox").toggle();
-      });
-
   });
 
   //Chat Script
     document.getElementById("login").addEventListener("click", login);
     document.getElementById("create-post").addEventListener("click", writeNewPost);
     var audio = new Audio('stop1.mp3');
-    $(".advice").hide();
-    $("#posts").hide();
 
-    getPosts();
+    //Chat Links and Window
+    $(chatLink).click(function(event){
+      $("#gamesSchedule").toggle();
+      $(".card-header").toggle();
+      $(".card-title").toggle();
+      $(".card-text").toggle();
+      $("#openChat").toggle();
+
+      $("#closeChat").toggle();
+      $("#chatBox").toggle();
+      getPosts();
+    });
 
     firebase.auth().onAuthStateChanged(function (user) {
       if (user) {
